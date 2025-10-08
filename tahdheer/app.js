@@ -24,7 +24,7 @@ const btnEarlyConfirm = byId('btnEarlyConfirm');
 const btnEarlyCancel = byId('btnEarlyCancel');
 
 const CONFIG = window.SANAM_CONFIG || {};
-const WEB_APP_URL = CONFIG.WEB_APP_URL || "https://script.google.com/macros/s/AKfycbzhFgwoIRIu5D6gybBuneQoxIsQFsaF7GFRihpZZUZSPTnrUo1zl0FosQgbOgDHkAMqBw/exec";
+const WEB_APP_URL = CONFIG.WEB_APP_URL || "https://script.google.com/macros/s/AKfycbwQQXkaJ68VxxxmBsE4YKmi_gQHlQ4hyt6_eor226TM5omj8FtAIYsM0xZx083RHPrVmA/exec";
 const BYPASS_FOR_LOCAL_FILE = (window.location.protocol === 'file:');
 
 // Helpers
